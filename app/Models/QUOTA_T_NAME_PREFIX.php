@@ -11,7 +11,7 @@ class QUOTA_T_NAME_PREFIX extends Model
 
 	public $timestamps = false;
 	
-	protected $teble = 'QUOTA_T_NAME_PREFIX' ; 
+	protected $table = 'QUOTA_T_NAME_PREFIX' ; 
 	protected $fillable = ['NAME_PREFIX_CODE','NAME_PREFIX_TH','NAME_PREFIX_EN','LAST_UPD_DATE','UPD_USER_ID'];
 }
 

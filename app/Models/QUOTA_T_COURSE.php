@@ -11,6 +11,6 @@ class QUOTA_T_COURSE extends Model
 
 	public $timestamps = false;
 	
-	protected $teble = 'QUOTA_T_COURSE' ; 
-	protected $fillable = ['COURSE_CODE','COURE_NAME','LAST_UPD_DATE','UPD_USER_ID'];
+	protected $table = 'QUOTA_T_COURSE' ; 
+	protected $fillable = ['COURSE_CODE','COURE_NAMETH','COURE_NAMEEN','PRESIDENT','LAST_UPD_DATE','UPD_USER_ID'];
 }

@@ -11,7 +11,7 @@ class QUOTA_T_PERSONNEL extends Model
 
 	public $timestamps = false;
 	
-	protected $teble = 'QUOTA_T_PERSONNEL' ; 
+	protected $table = 'QUOTA_T_PERSONNEL' ; 
 	protected $fillable = ['PERSONNEL_CODE','PERSONNEL_NAME','PERSONNEL_LASTNAME','LAST_UPD_DATE','UPD_USER_ID'];
 }
 

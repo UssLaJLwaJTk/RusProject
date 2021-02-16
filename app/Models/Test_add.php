@@ -11,6 +11,6 @@ class country extends Model
 
 	public $timestamps = false;
 	
-	protected $teble = 'Test_add' ;
+	protected $table = 'Test_add' ;
 	protected $fillable = ['idTest_add','Test_addcol'];
 }

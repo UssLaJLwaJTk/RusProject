@@ -11,6 +11,6 @@ class QUOTA_T_DISTRICT extends Model
 
 	public $timestamps = false;
 	
-	protected $teble = 'QUOTA_T_DISTRICT' ; 
+	protected $table = 'QUOTA_T_DISTRICT' ; 
 	protected $fillable = ['DISTRICT_CODE','PROVINCE_CODE','DISTRICT_NAME','LAST_UPD_DATE','UPD_USER_ID'];
 }

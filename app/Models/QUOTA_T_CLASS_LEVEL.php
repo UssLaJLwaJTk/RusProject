@@ -11,6 +11,6 @@ class QUOTA_T_CLASS_LEVEL extends Model
 
 	public $timestamps = false;
 	
-	protected $teble = 'QUOTA_T_CLASS_LEVEL' ; 
+	protected $table = 'QUOTA_T_CLASS_LEVEL' ; 
 	protected $fillable = ['CLASS_LEVEL_CODE','CLASS_LEVEL_NAME','CLASS_LEVEL_ADDREVIATED','LAST_UPD_DATE','UPD_USER_ID'];
 }

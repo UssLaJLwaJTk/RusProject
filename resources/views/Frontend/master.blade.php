@@ -4,7 +4,7 @@
         <li class="nav-item"><a class="nav-link js-scroll-trigger" style="color :black" href="/index"> หน้าแรก </a></li>
         <li class="nav-item"><a class="nav-link js-scroll-trigger" style="color :black" href="/relations"> ประชาสัมพันธ์ </a></li>
         <li class="nav-item"><a class="nav-link js-scroll-trigger" style="color :black" href="/course"> หลักสูตร </a></li> 
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" style="color :black" href="/register"> สมัครเรียน</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" style="color :black" href="/re"> สมัครเรียน</a></li>
         @guest
                             <li class="nav-item">
                                 <a class="nav-link" style="color :black" href="{{ route('login') }}">{{ __('Login') }}</a>

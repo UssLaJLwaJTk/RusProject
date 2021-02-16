@@ -11,6 +11,6 @@ class QUOTA_T_PROVINCE extends Model
 
 	public $timestamps = false;
 	
-	protected $teble = 'QUOTA_T_PROVINCE' ; 
+	protected $table = 'QUOTA_T_PROVINCE' ; 
 	protected $fillable = ['PROVINCE_CODE','PROVINCE_NAME','LAST_UPD_DATE','UPD_USER_ID'];
 }

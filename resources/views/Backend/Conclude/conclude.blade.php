@@ -11,15 +11,17 @@
                         <div class="card-header text-center">
                             <h5> สรุปประจำปี </h5> 
                         </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="row">
-                          <div class="col-sm-1"> ลำดับ </div>
-                          <div class="col-sm-8"> รายการ </div>
-                          <div class="col-sm-3"> คิดอยู่ </div>
+    
+                        <div class="card-body">
+                            <div class="row">
+                              <div class="col-sm-1"> ลำดับ </div>
+                              <div class="col-sm-7"> รายการ </div>
+                              <div class="col-sm-2"> ปีการศึกษา </div>
+                              <div class="col-sm-2"> การกระทำ </div>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </div>  
             </div>
         </div>
 

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\upnameprefix;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -37,7 +38,7 @@ Route::view('/relations', '/Frontend/relations/master');
 
 Route::view('/course', '/Frontend/course/master'); 
 
-Route::view('/register', '/Frontend/register/master'); 
+Route::view('/re', '/Frontend/register/master'); 
 
 
 //ส่วนของ Backend
@@ -54,7 +55,8 @@ Route::view('/AddCourse', '/Backend/Addinformation/AddCourse');  //ข้อม�
 
 Route::view('/AddLesson_plan', '/Backend/Addinformation/AddLesson_plan');  //ข้อมูลแผนการเรียน
 
-Route::view('/AddName_prefix', '/Backend/Addinformation/AddName_prefix');  //ข้อมูลคำนำหน้าชื่อ
+// Route::view('/AddName_prefix', '/Backend/Addinformation/AddName_prefix');  //ข้อมูลคำนำหน้าชื่อ
+Route::resource('AddName_prefix', upnameprefix::class);
 
 Route::view('/AddSchool', '/Backend/Addinformation/AddSchool'); //ข้อมูลสถานศึกษา
 
