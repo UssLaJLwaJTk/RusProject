@@ -27,8 +27,8 @@
         @endphp
         <tr>
             <td>{{ $CNT_ROW }}</td>
-            <td>{{ $person['FIRST_NAME_TH'] }} {{ $person['LAST_NAME_TH'] }}</td>
-            <td>{{ $person['FIRST_NAME_EN'] }} {{ $person['LAST_NAME_EN'] }}</td>
+            <td>{{ $person['NAME_TH'] }}</td>
+            <td>{{ $person['NAME_EN'] }}</td>
             <td></td>
             <td>
                 <div class="row row-cols-2">

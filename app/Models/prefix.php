@@ -9,4 +9,5 @@ class prefix extends Model
 {
     use HasFactory;
     protected $table = "QUOTA_T_PREFIX";
+    public $timestamps = false;
 }

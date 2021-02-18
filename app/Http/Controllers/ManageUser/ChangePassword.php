@@ -14,7 +14,7 @@ class ChangePassword extends Controller
      */
     public function index()
     {
-        return view('Backend.ManageUser.UpdatePassword');
+        return view('Backend.ManageData.UpdatePassword');
     }
 
     /**
