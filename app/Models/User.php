@@ -16,8 +16,9 @@ class User extends Authenticatable
      *
      * @var array
      */
+    protected $table = "QUOTA_T_PERSON_LOGIN";
     protected $fillable = [
-        'name', 'email', 'password',
+        'name', 'email', 'password', 'user_type' , 'first_create_flag'
     ];
 
     /**
